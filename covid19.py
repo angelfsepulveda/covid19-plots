@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 import os
-import logging
 import plotly.express as px
+import logging
 ###### begin logger config
 logger = logging.getLogger(os.path.basename(__file__))
 logger.setLevel(logging.DEBUG)
